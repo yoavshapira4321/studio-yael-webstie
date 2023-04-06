@@ -1,0 +1,72 @@
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --secondary-color: rgba(12, 21, 31, 1);
+  --dark-grey: rgba(120, 120, 120, 1);
+  --main-color: rgba(231, 42, 93, 1);
+  --grey: rgba(242, 242, 242, 1);
+  --pink: rgba(253, 234, 239, 1);
+  --pressed-text-color: rgba(255, 255, 255, 1);
+
+  --font-size-s: 8px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 50px;
+
+}
+
+
+header {
+    left:0;
+    top:0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--grey);
+    z-index: 2;
+    width: 100%;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #FF69B4; /* Pink color */
+}
+
+.nav-link.active {
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,274 @@
+/* Theme Name: My Theme */
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --secondary-color: rgba(12, 21, 31, 1);
+  --dark-grey: rgba(120, 120, 120, 1);
+  --main-color: rgba(231, 42, 93, 1);
+  --grey: rgba(242, 242, 242, 1);
+  --pink: rgba(253, 234, 239, 1);
+  --pressed-text-color: rgba(255, 255, 255, 1);
+
+  --font-size-s: 8px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 50px;
+
+}
+
+
+/* Theme Name: My Theme */
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --secondary-color: rgba(12, 21, 31, 1);
+  --dark-grey: rgba(120, 120, 120, 1);
+  --main-color: rgba(231, 42, 93, 1);
+  --grey: rgba(242, 242, 242, 1);
+  --pink: rgba(253, 234, 239, 1);
+  --pressed-text-color: rgba(255, 255, 255, 1);
+
+  --font-size-s: 8px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 50px;
+
+}
+
+
+
+
+.join-us-title{
+    font-size: var(--font-size-xxl);
+    padding: 24px;
+}
+
+
+main {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.worker-container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 3rem;
+}
+
+.worker-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+}
+
+
+button {
+    background-color: var(--main-color);
+    color: var(--pressed-text-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 24px;
+    margin-bottom: px;
+    
+}
+
+button:hover {
+    background-color: var(--pressed-text-color);
+    color:#E72A5D;
+}
+
+.join-us {
+
+    background-color: var(--grey);
+    font-size: var(--xx-large);
+}
+
+.role-button {
+  background-color: var(--main-color);
+  color: var(--pressed-text-color);
+  padding: 10px 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 24px; 
+}
+
+.role-button:hover .role-button.active{
+  background-color: white;
+  color: var(--main-color);
+}
+
+
+.roles {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.form {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.file-upload {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border-color: var(--grey);
+  transition: border-color 0.5s;
+}
+
+
+.file-upload input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-upload:hover {
+    border-color: var(--main-color);
+}
+
+.file-upload span {
+    display: inline-block;
+    text-align: center;
+}
+
+
+header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-wrapper {
+  width: 20%;
+  margin: auto 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-item {
+  padding-top: 20px;
+  font-size: var(--font-size-m);
+  color: var(--dark-grey);
+  opacity: 70%;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+}
+
+
+.project-title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--dark-grey);
+  opacity: 0.7;
+}
+
+.file-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: %50;
+}
+
+.file-upload-square {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed;
+  background-color: white;
+  border-color: var(--grey);
+  border-radius: 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: border-color 0.5s;
+}
+
+.file-upload-square:hover {
+  border-color: var(--main-color);
+}
+
+.file-upload span {
+  display: inline-flex;
+  align-items: center;
+  color: var(--main-color);
+  opacity: 50%;
+}
+
+.file-upload span img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  opacity: 70%;
+}
+
+
+.file-upload-square span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--main-color);
+  opacity: 50%;
+}
